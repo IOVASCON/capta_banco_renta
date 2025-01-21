@@ -118,8 +118,10 @@ Abaixo está um exemplo de como os resultados são exibidos no terminal:
 ## 📝 **Relatório Gerado**
 
 O script gera um relatório em PDF, como mostrado abaixo:
+A linha do Markdown padrão que exibe a imagem será substituída por uma tag HTML para ajustar o tamanho.
 
-![Relatório PDF](images/relatorio_thumb.png)
+<!-- markdownlint-disable-next-line MD033 --> Esse comentário desativará a regra MD033 apenas para a linha seguinte
+<img src="images/relatorio_thumb.png" alt="Relatório Gerado" width="600">
 
 ## 🖥️ **Como Executar**
 
